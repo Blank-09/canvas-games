@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game - HSCoders</title>
+    <link
+      rel="stylesheet"
+      href="./css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <div class="header">
+        <h1>BRICKS GAME</h1>
+        <div class="lives-count d-none">
+          <img src="./img/Heart.png" class="heart" />
+          <img src="./img/Heart.png" class="heart" />
+          <img src="./img/Heart.png" class="heart" />
+        </div>
+      </div>
+      <img src="./img/ball.png" id="myBall" class="d-none" />
+      <img src="./img/Heart.png" id="heart-color" class="d-none" />
+      <img src="./img/No.Heart.png" id="heart-nocolor" class="d-none" />
+      <canvas id="mycanvas" width="800" height="450"></canvas>
+    </div>
+
+    <script src="./js/paddle.js"></script>
+    <script src="./js/input.js"></script>
+    <script src="./js/collisionDetection.js"></script>
+    <script src="./js/ball.js"></script>
+    <script src="./js/brick.js"></script>
+    <script src="./js/level.js"></script>
+    <script src="./js/game.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
