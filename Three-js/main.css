@@ -33,7 +33,7 @@ body {
  }
 
  h1 {
-    font-size: 3rem + 2vw;
+    font-size: calc(3rem + 2vw);
     text-transform:  uppercase;
     color:  white;
  }
