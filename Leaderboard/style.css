@@ -254,3 +254,41 @@ div.down .rank svg:last-child {
     width: 11vw;
   }
 }
+
+@media (max-width: 500px) {
+  .other-ranks .item .cont .det img {
+    width: 65px;
+  }
+  .item .pts {
+    padding-right: 4px;
+    font-size: 15px;
+  }
+  .name, .id {
+    font-size: 15px;
+  }
+  .other-ranks .rank {
+    margin: 0 15px;
+  }
+  .other-ranks .item {
+    padding: 8px 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .other-ranks .item .cont .det img {
+    width: 50px;
+  }
+  .item .pts {
+    padding-right: 3px;
+    font-size: 12px;
+  }
+  .name, .id {
+    font-size: 12px;
+  }
+  .other-ranks .rank {
+    margin: 0 10px;
+  }
+  .other-ranks .item {
+    padding: 5px 0;
+  }
+}
